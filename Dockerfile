@@ -10,7 +10,7 @@ ADD . /app
 # Install any needed packages specified in requirements.txt
 RUN pip install -r requirements.txt
 
-# Make port 80 available to the world outside this container
+# Make port 8081 available to the world outside this container
 EXPOSE 8081
 
 # Define environment variable
